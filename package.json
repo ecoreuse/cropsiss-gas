@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "ts-node": "^10.4.0"
+  },
+  "name": "cropsiss-gas",
+  "version": "0.0.1",
+  "description": "Extentions for Cropsiss",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.41",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  },
+  "scripts": {
+    "test": "node_modules/jest/bin/jest.js"
+  },
+  "author": "Shuhei Nitta",
+  "license": "MIT"
+}

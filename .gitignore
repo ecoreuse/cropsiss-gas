@@ -1,0 +1,9 @@
+# vscode
+.vscode
+.devcontainer
+
+# clasp
+.clasp.json
+
+# node modules
+node_modules
