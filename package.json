@@ -3,7 +3,7 @@
     "ts-node": "^10.4.0"
   },
   "name": "cropsiss-gas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extentions for Cropsiss",
   "main": "jest.config.js",
   "directories": {
