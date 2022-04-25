@@ -7,14 +7,15 @@ export class YahooAuction {
     mail: GoogleAppsScript.Gmail.GmailThread,
     pattern: string | RegExp
   ): string {
+    var id: string = "";
     for (var msg of mail.getMessages()) {
       const body = msg.getBody();
       const ID = body.match(pattern);
       if (ID) {
-        return ID[0];
+        id = ID[0];
       }
     }
-    return "";
+    return id;
   }
 
   getCropsissID(mail: GoogleAppsScript.Gmail.GmailThread) {
