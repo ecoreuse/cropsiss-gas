@@ -1,0 +1,21 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:18",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "redhat.vscode-yaml",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+  "postCreateCommand": {
+    "install npm clasp": "npm install -g @google/clasp",
+    "install npm": "sudo npm install"
+  },
+  "mounts": ["source=crostore_node_modules,target=/workspaces/crostore-gas/node_modules"]
+}
