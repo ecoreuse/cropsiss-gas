@@ -10,7 +10,7 @@
     "test": "tests"
   },
   "devDependencies": {
-    "@types/google-apps-script": "1.0.54",
+    "@types/google-apps-script": "1.0.77",
     "@types/jest": "^29.5.8",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
